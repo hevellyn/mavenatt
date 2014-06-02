@@ -1,13 +1,23 @@
 package br.com.group.testeaps;
 
-/**
- * Hello world!
- *
- */
+import java.util.ArrayList;
+
+
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public int idade = 0;
+     
+    
+    public boolean isIdadezero(){
+    	if(idade == 0){
+    		return true;
+    	}
+    	return false;
     }
+    
+    public void setIdade(int i){
+    	idade = i;
+    }
+    
 }
+
